@@ -79,6 +79,5 @@ def main():
             st.write("Summary Text Length:", len(summary_result))
 
             # st.write(word_tokenize(article_text))
-
-if __name__=='__main__':
-	main()
+            
+main()
