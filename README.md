@@ -10,11 +10,14 @@ There are two main phases to natural language processing:
 2.algorithm development
 
 
-**re (RegEx or Regular Expression):**
+**Libraries used**
+
+
+**1) re (RegEx or Regular Expression):**
 This is the Python regular expression module, which is used for text cleaning/ preprocessing and pattern matching operations.
 
 
-**NLTK(Natural Language Toolkit):**
+**2) NLTK (Natural Language Toolkit):**
 NLTK is a popular Python library used for building Python programs that work with human language data for applying in statistical natural language processing (NLP). It contains text processing libraries for tokenization, parsing, classification, stemming, tagging and semantic reasoning.
 Specifically, the following modules/components from NLTK are imported and used:
    - stopwords: This module provides a list of stopwords (common words like "the," "a," "is," etc.) that are often removed during text processing.
@@ -25,16 +28,17 @@ Specifically, the following modules/components from NLTK are imported and used:
 pip3 install nltk
 
 
-**Streamlit:**
+**3) Streamlit:**
 It is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science. In just a few minutes you can build and deploy powerful data apps.
 
 *Installation:*
 pip3 install streamlit
 
 
-**Heapq (Heap Queue):** 
+**4) Heapq (Heap Queue):** 
 This is a built-in Python module for implementing the heap queue algorithm (Priority Queue). In this code, it is used to select the top N sentences with the highest scores for the summary.
 
 
 **To run the file:**
+
 python -m streamlit run TextSummarizer.py 
