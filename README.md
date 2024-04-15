@@ -1,17 +1,10 @@
-**Extractive Text-Summarization App using NLTK, using Streamlit**
+<h1>Extractive Text-Summarization App using NLTK, using Streamlit</h1>
 
 **NLP:**
 It is the ability of a computer program to understand human language as it is spoken and written referred to as natural language. It is a component of artificial intelligence(AI).
 
-There are two main phases to natural language processing: 
 
-1.data preprocessing
-
-2.algorithm development
-
-
-**Libraries used**
-
+<h2>Libraries used:</h2>
 
 **1) re (RegEx or Regular Expression):**
 This is the Python regular expression module, which is used for text cleaning/ preprocessing and pattern matching operations.
@@ -25,6 +18,7 @@ Specifically, the following modules/components from NLTK are imported and used:
    - sent_tokenize: This function tokenizes (splits) a given text into individual sentences.
 
 *Installation:*
+
 pip3 install nltk
 
 
@@ -32,6 +26,7 @@ pip3 install nltk
 It is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science. In just a few minutes you can build and deploy powerful data apps.
 
 *Installation:*
+
 pip3 install streamlit
 
 
@@ -39,6 +34,19 @@ pip3 install streamlit
 This is a built-in Python module for implementing the heap queue algorithm (Priority Queue). In this code, it is used to select the top N sentences with the highest scores for the summary.
 
 
-**To run the file:**
+<h2>Processes involved in Extractive Text Summarization</h2>
 
-python -m streamlit run TextSummarizer.py 
+1. Text cleaning 
+
+2. Sentence tokenization
+
+3. Word tokenization
+
+4. Word-frequency table
+
+5. Summarization
+
+
+<h3>To run the file:</h3>
+
+python -m streamlit run TextSummarizer.py
