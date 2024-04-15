@@ -36,7 +36,7 @@ def nltk_summarizer(docx):
     for sent in sentence_list:
         for word in nltk.word_tokenize(sent.lower()):
             if word in freqTable.keys():
-                if len(sent.split(' ')) < 30:      # filtering condition in order to exclude very long sentences from the scoring process.
+                if len(sent.split(' ')) < 30:      #  Checks if the length of the current sentence (split into words using the space character ' ') is less than 30 words. This is a filtering condition to exclude very long sentences from the scoring process.
                     if sent not in sentence_scores.keys():
                         sentence_scores[sent] = freqTable[word]
                     else:
@@ -77,8 +77,6 @@ def main():
             # Display lengths of original text and summary text
             st.write("Original Text Length:", len(article_text))
             st.write("Summary Text Length:", len(summary_result))
-
-            # st.write(word_tokenize(article_text))
 
 if __name__=='__main__':
 	main()
